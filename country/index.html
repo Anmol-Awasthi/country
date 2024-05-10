@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="title">Document</title>
+    <link rel="stylesheet" href="/country/country.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="/country/country.js" defer></script>
+</head>
+<body>
+    <header class="header-container">
+        <div class="header-content">
+            <h1><a href="/index.html">Where in the World ?</a></h1>
+            <div class="dark-mode">
+                <i class="fa-regular fa-moon"></i>
+                <p>Dark Mode</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <a class="back-arrow" onclick="history.back()"><i class="fa-solid fa-arrow-left"></i> Back</a>
+
+        <div class="country-details">
+            <div class="left-section">
+                <img src="" alt="flag">
+            </div>
+            <div class="right-section">
+                <div class="country-name"><h2><b></b></h2></div>
+                <div class="other-details">
+                    <div class="left">
+                        <P><b>Native Name: </b><span class="native-name"></span></P>
+                        <P><b>Population: </b><span class="population"></span></P>
+                        <P><b>Region: </b><span class="region"></span></P>
+                        <P><b>Sub Region: </b><span class="sub-region"></span></P>
+                        <P><b>Capital: </b><span class="capital"></span></P>
+                    </div>
+                    <div class="right">
+                        <P><b>Top Level Domain: </b><span class="tld"></span></P>
+                        <P><b>Currencies: </b><span class="currencies"></span></P>
+                        <P><b>Languages:  </b><span class="languages"></span></P>
+                    </div>
+                </div>
+                <div class="border-countries">
+                    <b class="border-text">Border Countries: </b>
+                    <div class="border-country"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>Made with  ❤️ by Anmol</footer>
+</body>
+</html>
